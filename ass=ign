@@ -1,0 +1,13 @@
+// Take radius as input and calculate area of a circle.
+
+import java.util.*;
+
+public class Assignments {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double radius = sc.nextDouble();
+        double area = Math.PI * radius * radius;
+        System.out.println(area);
+        sc.close();
+    }
+}
