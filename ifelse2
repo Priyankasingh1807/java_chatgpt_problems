@@ -1,0 +1,19 @@
+
+// Find the largest of two numbers.
+import java.util.*;
+
+public class Assignments {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        if (a < b) {
+            System.out.println("the largest number is: " + b);
+        } else {
+            System.out.println("the largest number is: " + a);
+        }
+
+        scanner.close();
+    }
+}
